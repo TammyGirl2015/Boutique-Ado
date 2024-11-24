@@ -5,3 +5,6 @@ def index(request):
     """ A view to return the index page """
 
     return render(request, 'home/index.html')
+
+def profile(request):
+    return render(request, 'home/base.html')

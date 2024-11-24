@@ -14,4 +14,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('', views.index, name='home'),
+    path('profile/', views.profile, name='profile'),
 ]
