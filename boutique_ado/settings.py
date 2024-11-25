@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-p9-me48asmcs-p##x_zwd4y88m&^l#8ry-!0+cx^w0j@mt5ww0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< Updated upstream
 ALLOWED_HOSTS = ['8000-tammygirl20-boutiqueado-he3fbmrbdyi.ws.codeinstitute-ide.net','8000-tammygirl20-boutiqueado-x85j8lrb667.ws-eu116.gitpod.io', '8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net/', 'http://8000-tammygirl20-boutiqueado-he3fbmrbdyi.ws.codeinstitute-ide.net/']
+=======
+ALLOWED_HOSTS = ['8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net','8000-tammygirl20-boutiqueado-x85j8lrb667.ws-eu116.gitpod.io', '8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net/']
+>>>>>>> Stashed changes
 
 
 # Application definition
