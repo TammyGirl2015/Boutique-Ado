@@ -90,9 +90,17 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+#CSRF_TRUSTED_ORIGINS = [
+#    'https://8000-tammygirl20-boutiqueado-he3fbmrbdyi.ws.codeinstitute-ide.net'
+#    'https://8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net',
+#]
+
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-tammygirl20-boutiqueado-he3fbmrbdyi.ws.codeinstitute-ide.net'
+    "http://localhost:8000",
+    "https://localhost:8000",
+    "https://8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net"
 ]
+
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
