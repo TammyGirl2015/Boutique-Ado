@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p9-me48asmcs-p##x_zwd4y88m&^l#8ry-!0+cx^w0j@mt5ww0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net', '8000-tammygirl20-boutiqueado-gq3n047lhxe.ws-eu117.gitpod.io']
 
 # Application definition
 INSTALLED_APPS = [
@@ -98,7 +98,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "https://localhost:8000",
-    "https://8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net"
+    "https://8000-tammygirl20-boutiqueado-g5n3ziupz5p.ws.codeinstitute-ide.net",
+    "https://8000-tammygirl20-boutiqueado-gq3n047lhxe.ws-eu117.gitpod.io",
 ]
 
 
